@@ -1,0 +1,61 @@
+@import url("reset.css");
+
+h1 {
+	color:darkblue;
+}
+#pz {
+	color: black;
+}
+div.sign {
+	color: aqua;
+}
+.links {
+	color:blueviolet;
+}
+.links > li {
+	color: darkgreen;
+}
+.wojna ~ li {
+	color: chocolate;
+}
+.title {
+	color: darkblue;
+}
+.title__image.aboutplane {
+	color: orange;
+}
+.title__image.aboutplane span{
+	color: darkgreen;
+}
+.content {
+	color:blue;
+}
+[class*="__abzac"] {
+	color: rosybrown;
+}
+.content2__abzac + p {
+color: yellow;
+}
+.comments h3 {
+	color: red;
+}
+.comments__line {
+	color:darkslategrey;
+}
+.comments__line mark {
+	color:darkorchid;
+}
+.aporn mark {
+	color:aqua;
+}
+.mac208,
+.jimmydore {
+	color: darkkhaki;
+}
+.mac208 * span{
+	color:red;
+}
+
+
+
+
