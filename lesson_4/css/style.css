@@ -1,0 +1,149 @@
+
+@import url("reset.css");
+
+@import url(https://fonts.googleapis.com/css?family=Gemunu+Libre:regular,700&display=swap);
+
+@font-face {
+	font-family: 'AvantGarde';
+	src: url('../fonts/AvantGardeBookOblique.woff2') format('woff2'),
+		 url('../fonts/AvantGardeBookOblique.woff') format('woff');
+	font-weight: normal;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'AvantGarde';
+	src: url('../fonts/AvantGardeBook.woff2') format('woff2'),
+		 url('../fonts/AvantGardeBook.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+body {
+	font-family: "AvantGarde";
+	font-size: 18px;
+}
+
+#contact {
+	font-family: "Gluten", "Gemunu Libre",  sans-serif;
+	text-align: right;
+}
+
+#contact mark {
+	color: red;
+	font-weight: 700;
+}
+
+.number{
+	text-decoration: underline;
+	text-shadow: -3px 3px 4px rgb(42, 238, 252);
+}
+
+.logo {
+	text-align: center;
+}
+
+main {
+	text-align: center;
+}
+
+h1 {
+	font-style: italic;
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+
+.title p{
+	white-space: nowrap;
+	word-spacing: 5px;
+}
+
+[class*="__question"] {
+	font-style: italic;
+	letter-spacing: 3px;
+	line-height: 1.4;
+	text-decoration: overline;
+	text-transform: uppercase;
+}
+
+.content1__answer1 {
+	color: #008b8b;
+}
+
+.content1__answer2 {
+	text-align: justify;
+}
+
+.content2__answer {
+	line-height: 1.7;
+	text-align: left;
+	text-indent: 70px;
+	text-transform: lowercase;
+}
+
+.content2__image {
+	text-align: right;
+}
+
+.content3 {
+	color: rgba(255, 0, 0, 0.7);
+}
+
+.content3 span {
+	color: rgb(128, 0, 0);
+	text-decoration: line-through;
+}
+
+.content4__answer1 {
+	color: #008b8b;
+}
+
+.content4__answer2,
+.content4__image {
+	text-align: left;
+}
+
+.content5__answer1 {
+	color: #008b8b;
+}
+
+.content5__answer2 {
+	text-align: left;
+}
+
+.foot__logo {
+	text-align: center;
+}
+
+.foot__social {
+	font-family: "Gemunu Libre", "Gluten", sans-serif;
+	font-weight: 700;
+	text-align: left;
+	text-shadow: 2px 2px 5px rgb(223, 98, 98);
+	text-transform: capitalize;
+}
+
+.foot__intagram {
+	color:rgb(138, 43, 226);
+	text-indent: 20%;
+}
+
+.foot__facebook {
+	color:rgb(255, 127, 80);
+	text-indent: 40%;
+}
+
+.foot__twitter {
+	color:rgb(1, 220, 1);
+	text-indent: 60%;
+}
+
+.foot__linkedin {
+	color:rgb(37, 125, 122);
+	text-indent: 80%;
+}
+
+
+
