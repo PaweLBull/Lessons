@@ -1,0 +1,159 @@
+
+@import url("reset.css");
+
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,700&display=swap);
+
+body {
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 25px;
+	margin: 0 auto;
+}
+
+header,
+.content, 
+.content2,
+footer {
+	margin: 0 auto;
+	max-width: 816px;
+}
+
+.head {
+	padding: 70px 0 0 0;
+	margin: 0 0 40px 0;
+}
+
+h2 {
+	color: #212529;
+	font-size: 25px;
+	font-weight: 700;
+	line-height: 40px;
+}
+
+.head h2{
+	max-width: 50%;
+}
+
+.content {
+	margin: 0 0 80px 0;
+}
+
+p {
+	color:#6C757D;
+	margin: 0 0 25px 0;
+}
+
+.content > p + p + p {
+	margin-bottom: 0;
+}
+
+.img-1 {
+	margin: 0 auto 80px;
+	max-width: 1240px;
+}
+
+.content2 h2 {
+	margin: 0 0 40px 0;
+	max-width: 75%;
+}
+
+.content2__block2 > p + p {
+	margin-bottom: 0;
+}
+
+.content2__block2 {
+	margin: 0 0 80px 0;
+}
+
+.img-2 {
+	font-size: 0;
+	max-width: 1240px;
+	margin: 0 auto 80px;
+}
+
+.img-2 img {
+	display: inline-block;
+	max-width: 605px;
+}
+
+.img-2__girl {
+	margin-right: 30px;
+}
+
+footer {
+	margin: 0 auto 100px;
+}
+
+.test {
+	max-width: 1240px;
+	margin: 0 auto;
+	text-align: justify;
+}
+
+.test div {
+	display: inline-block;
+}
+.test-1 {
+	background-color: burlywood;
+	max-width: 250px;
+	max-height: 250px;
+	overflow: hidden;
+	text-align: justify;
+}
+.test-2 {
+	background-color:lime;
+	max-width: 250px;
+	min-height: 250px;
+	overflow: hidden;
+	text-align: justify;
+}
+.test-3 {
+	background-color:rgb(0, 72, 255);
+	max-width: 250px;
+	max-height: 250px;
+	overflow: scroll;
+	text-align: justify;
+}
+.test-4 {
+	background-color:rgb(251, 0, 255);
+	max-width: 250px;
+	max-height: 250px;
+	overflow: auto;
+	text-align: justify;
+}
+.test-5 {
+	background-color:rgb(8, 3, 8);
+	min-width: 250px;
+	max-height: 100px;
+	text-align: right;
+}
+
+.test-6 span {
+	background-color:rgb(213, 36, 104);
+	display: block;
+	max-width: 300px;
+	height: 300px;
+	padding: 10px;
+	margin-right: -150px;
+}
+
+.test-7 {
+	background-color:rgb(36, 207, 213);
+	max-width: 200px;
+	min-height: 200px;
+	padding: 10px;
+}
+
+.test-7 span {
+	padding: 40px;
+}
+
+
+.test-8 {
+	display: inline;
+	color: rgb(218, 32, 32);
+	font-weight: 700;
+	font-size: 28px;
+	vertical-align: middle;
+}
