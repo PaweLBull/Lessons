@@ -1,0 +1,154 @@
+
+@import url("reset.css");
+
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,700&display=swap);
+
+body {
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	color: #6C757D;
+}
+[class*=__container] {
+	max-width: 1270px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+.article {
+	padding-top: 50px;
+}
+.article__text {
+	max-width: 816px;
+	margin: 0 auto 80px;
+}
+.article__title {
+	color: #212529;
+	font-size: 25px;
+	font-weight: 700;
+	line-height: 1.6;
+	margin-bottom: 40px;
+}
+.title-1 {
+	max-width: 50%;
+}
+.title-2 {
+	max-width: 75%;
+}
+.article__content p {
+	line-height: 1.79;
+	margin-bottom: 25px;
+}
+.article__image {
+	max-width: 100%;
+	margin-bottom: 80px;
+}
+.article__image-2 {
+	font-size: 0;
+	margin-bottom: 80px;
+}
+.article__img-2-1 {
+	max-width: 100%;
+}
+.img-2-1-1 {
+	margin-right: 30px;
+}
+.article__image-container {
+	width: 100%;
+	margin-bottom: 100px;
+}
+.article__page-2 {
+	margin-bottom: 100px;
+}
+
+.test {
+	margin: 0 auto;
+	padding-bottom: 50px;
+}
+.homework {
+	font-size: 40px;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	letter-spacing: 7px;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 40px;
+}
+.test__blocks {
+	color: black;
+	font-size: 17px;
+	margin-bottom: 90px;
+}
+.test__block {
+	width: 500px;
+	height: 100px;
+	margin: 0 auto 20px;
+}
+.block-1 {
+	background-color: yellow;
+	border: 2px solid black;
+	outline: 4px dashed red;
+}
+.block-1 span {
+	border: 2px solid blue;
+}
+.block-2 {
+	background-color: burlywood;
+	border: 5px dashed blue;
+	border-radius: 30px;
+	padding: 10px;
+	box-shadow: -10px -20px 30px 5px rgb(12, 208, 130);
+}
+.block-3 {
+	background-color: #6C757D;
+	outline: 10px solid red;
+	opacity: 0.5;
+	box-shadow: 20px 10px 5px 10px black;
+} 
+.block-4 {
+	background-color: lightgreen;
+	border: 10px dotted rgb(55, 184, 188);
+	border-top: none;
+	border-top: 10px solid black;
+}
+.block-5 {
+	width: 200px;
+	height: 200px;
+	background-color: blue;
+	border-radius: 50%;
+	overflow: hidden;
+	box-shadow: 0px 0px 50px 40px black;
+}
+.block-6 {
+	background-color: black;
+	visibility: hidden;
+	box-shadow: 10px 10px 10px 5px black;
+}
+.block-7 {
+	background-color: darkcyan;
+	border-radius: 30px 20px 50px 25px;
+	opacity: 0.2;
+}
+
+.link{
+	max-width: 130px;
+	max-height: 50px;
+	margin: 0 auto;
+}
+.finish {
+	width: 130px;
+	height: 50px;
+	display: inline-block;
+	background-color: gold;
+	border: 3px solid red;
+	border-radius: 25px;
+	box-shadow: 3px 3px 0px 1px;
+	text-align: center;
+}
+.finish span {
+	color: black;
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 2;
+	text-transform: uppercase;
+	text-decoration: line-through;
+	vertical-align: middle;
+}
