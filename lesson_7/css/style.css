@@ -1,0 +1,162 @@
+
+@import url("reset.css");
+
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,700&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Inter:regular,500,600,700&display=swap);
+
+header {
+	font-family: 'Poppins', sans-serif;
+	font-size: 12px;
+	font-weight: 300;
+	color: #E5E5E5;
+	background: url("../img/01.png") 0 0 / cover no-repeat;
+}
+.header__container {
+	max-width: 1270px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+.header__block{
+	padding: 330px 0 100px;
+}
+.header__text {
+	line-height: 1.67;
+	margin-bottom: 15px;
+}
+.header__title {
+	color: #F8F9FA;
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 1.6;
+	margin-bottom: 15px;
+	max-width: 50%;
+}
+.header__description {
+	margin-bottom: 0;
+	max-width: 30%;
+}
+main {
+	font-family: 'Inter', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	color: #637381;
+}
+.main__container {
+	max-width: 1150px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+.main__title {
+	font-weight: 400;
+	font-size: 26px;
+	line-height: 1.08;
+	color: #212B36;
+	padding-top: 50px;
+	margin-bottom: 45px;
+}
+.main__list {
+	padding-bottom: 100px;
+}
+.row-1 {
+	margin-bottom: 60px;
+}
+.main__component {
+	display: inline-block;
+	margin-right: 60px;
+	vertical-align: top;
+	width: 309px;
+}
+.main__component li {
+	margin-bottom: 16px;
+	padding-left: 25px;
+	min-height: 15px;
+}
+.component-1 li {
+	background: url("../img/ul-1.png") 0 3px / auto no-repeat;
+	line-height: 0.94;
+}
+.component-2 li {
+	background: url("../img/ul-2.png") 0 0 / 16px no-repeat;
+}
+.component-3 li {
+	background: url("../img/ul-3.png") 0 0 / 16px no-repeat;
+	margin-right: 0;
+}
+.component-4 li {
+	background: url("../img/ul-4.png") 0 0 / 16px no-repeat;
+}
+.component-5 li {
+	background: url("../img/ul-5.png") 0 5px / 16px no-repeat;
+}
+.component-6 li {
+	background: url("../img/ul-6.png") 0 0 / 16px no-repeat;
+	margin-right: 0;
+}
+footer {
+	font-family: 'Inter', sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	color: #637381;
+	background: url("../img/3-1.png") 80% center / auto no-repeat, url("../img/Vector-18.png") 97% center / auto no-repeat, url("../img/Vector-17.png") 97% center / auto no-repeat #F4F7FF;
+	margin-bottom: 70px;
+}
+.footer__container {
+	max-width: 1140px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+.footer__text {
+	padding: 145px 0;
+}
+.footer__price {
+	color: #3056D3;
+	font-size: 18px;
+	line-height: 1.33;
+	margin-bottom: 13px;
+}
+.footer__title {
+	color: #212B36;
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 1.25;
+	margin-bottom: 15px;
+	max-width: 500px;
+}
+.footer__description {
+	font-weight: 500;
+	line-height: 1.5;
+	margin-bottom: 35px;
+	max-width: 570px;
+}
+.button {
+	display: inline-block;
+	min-width: 139px;
+	color: #FFFFFF;
+	line-height: 1.5;
+	text-align: center;
+	background: #3056D3;
+	border-radius: 30px;
+	padding: 10px 30px;
+	overflow: hidden;
+}
+
+.test {
+	height: 500px;
+	background: url("../img/01.png") center / cover no-repeat fixed;
+}
+.test-2 {
+	height: 500px;
+	background: radial-gradient(circle, rgba(222,7,7,0.7315301120448179) 23%, rgba(211,198,48,1) 74%) rgb(222,7,7);
+}
+.test-3 {
+	height: 500px;
+	background: url("../img/ul-5.png") center / contain no-repeat;
+}
+.test-4 {
+	height: 500px;
+	background: url("../img/ul-5.png") center / cover no-repeat;
+}
+.test-5 {
+	height: 500px;
+	background: url("../img/ul-5.png") center / auto repeat;
+}
