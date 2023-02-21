@@ -1,0 +1,89 @@
+@import url("reset.css");
+
+
+body {
+	background-color: lightcyan;
+	padding-top: 40px;
+}
+.title {
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 55px;
+	text-align: center;
+	margin-bottom: 50px;
+}
+.title:hover {
+	font-size: 50px;
+	color: royalblue;
+	transition: all 0.7s;
+	
+}
+.content__pictures {
+	text-align: center;
+	margin-bottom: 50px;
+}
+[class*="__row"]:not(:last-child) {
+	margin-bottom: 40px;
+}
+
+.content__row img{
+	margin-right: 50px;
+	box-shadow: 0 0 20px 5px yellow;
+	border-radius: 25px;
+}
+.content__row img:hover {
+	transform: scale(1.2);
+	box-shadow: 0 0 20px 20px orange;
+}
+.row-5 img {
+	border-radius: 50%;
+}
+.content-icons {
+	padding: 40px 0;
+	background-color: brown;
+	text-align: center;
+	margin-bottom: 40px;
+}
+.content-icons__row img{
+	margin-right: 50px;
+}
+.content-icons__row img:hover {
+	transform: scale(1.2);
+	box-shadow: 0 0 10px 10px orange;
+}
+.icons {
+	padding: 40px 0;
+	background-color: rgb(255, 145, 2);
+	text-align: center;
+	margin-bottom: 40px;
+}
+.icons img{
+	margin-right: 70px;
+}
+.icons__row img:hover {
+	transform: scale(2);
+	box-shadow: 0 0 10px 10px rgb(68, 255, 0);
+}
+.design-elements {
+	padding: 40px 0;
+	background-color: hsl(0, 15%, 49%);
+	text-align: center;
+}
+.row4-1 img{
+	width: 100%;
+}
+.design-elements img{
+	margin-right: 70px;
+}
+.design-elements__row img:hover {
+	transform: scale(1.2);
+	box-shadow: 0 0 10px 10px rgb(255, 145, 2);
+}
+.row4-1 img:hover {
+	transform: scale(0.9);
+	box-shadow: 0 0 10px 10px rgb(255, 2, 65); 
+}
+.row4-3 img {
+	background-color: #1234A6;
+}
