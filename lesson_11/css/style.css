@@ -1,0 +1,225 @@
+@import url("reset.css");
+
+@import url(https://fonts.googleapis.com/css?family=Inter:500,600,700&display=swap);
+
+body {
+	font-family: "Inter", sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+}
+.wrapper {
+	overflow: clip;
+	min-height: 100%;
+	background-color: #dcdcdc;
+}
+.header {
+	background-color: #fff;
+	min-width: 100%;
+	position: fixed;
+	top:0;
+	left: 0;
+	z-index: 5;
+}
+[class *="__container"] { 
+	max-width: 1200px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: 0 auto;
+}
+.header__container > div {
+	display: inline-block;
+}
+.header__logo {
+	margin-right: 44px;
+	vertical-align: middle;
+	padding: 30px 0;
+}
+.header__logo ~ div {
+	padding: 40px 0;
+	vertical-align: bottom;
+}
+.header__all-categories {
+	position: relative;
+	margin-right: 40px;
+}
+.header__categories {
+	font-weight: 600;
+	padding: 9px 20px;
+}
+.header__categories:hover {
+	color: #0000ff;
+}
+.header__all-categories:hover .expand{
+	visibility: visible;
+}
+.header__categories:focus{
+	background-color: #e9e9e9;
+}
+[class *="__link-blue"]:hover {
+	color: #0000ff;
+}
+[class *="__link-blue"]:focus {
+	background-color: #e9e9e9;
+}
+.arrow-after::after{
+	content: '';
+	background: url("../img/arrow.svg") right center / 16px no-repeat;
+	padding-left: 25px;
+}
+.arrow-after:hover::after{
+	content: '';
+	background: url("../img/arrow-right.svg") right center / 8px no-repeat;
+	padding-left: 25px;
+}
+.arrow-right-after::after{
+	content: '';
+	background: url("../img/arrow.svg") right center/ 16px no-repeat;
+	padding-left: 80px;
+}
+.arrow-right-after:hover::after{
+	content: '';
+	background: url("../img/arrow-right.svg") right center / 8px no-repeat;
+	padding-left: 80px;
+}
+.header__menu {
+	margin-right: 135px;
+}
+.menu__item {
+	display: inline-block;
+	padding: 5px 5px;
+	line-height: 19px;
+	font-weight: 600;
+}
+.menu__item:not(:last-child){
+	margin-right: 10px;
+}
+.header__action > div {
+	display: inline-block;
+}
+.action > div:not(:last-child){
+margin-right: 20px;
+}
+.prefers__link, .buy-box__link{
+	position: relative;
+}
+.number-link::after{
+	content: '3';
+	display: inline-block;
+	font-size: 8px;
+	line-height: 10px;
+	padding: 5px;
+	text-align: center;
+	color: #fff;
+	height: 20px;
+	width: 20px;
+	background-color: #0000ff;
+	border-radius: 50%; 
+	position: absolute;
+	bottom: 60%;
+	left: 50%;
+}
+.expand {
+	padding-top: 5px;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	visibility: hidden;
+}
+.expand__container{
+	padding: 20px 0;
+	color: #637381;
+	background-color: #fff;
+	border-radius: 5px;
+	border: 0.5px solid #E7E7E7;
+	min-width: 180px;
+}
+.expand__container::before{
+	content: '';
+	height: 0;
+	width: 0;
+	border-right: 5px solid transparent;
+	border-left: 5px solid transparent;
+	border-bottom: 5px solid #fff;
+	position: absolute;
+	bottom: 97.7%;
+	left: 10px;
+}
+.expand__item {
+	padding: 0 20px;
+}
+.expand__item:not(:last-child) {
+	margin-bottom: 10px;
+}
+.fashion{
+	position: relative;
+}
+.fashion:hover .sub {
+	visibility: visible;
+}
+.sub {
+	padding: 30px;
+	background-color: #fff;
+	border-radius: 5px;
+	border: 0.5px solid #E7E7E7;
+	width: 652px;
+	position: absolute;
+	top: -25px;
+	left: 100%;
+	visibility: hidden;
+}
+.sub__column {
+	display: inline-block;
+	min-width: 180px;
+}
+.sub__title {
+	color: #212B36;
+	margin-bottom: 20px;
+	font-weight: 600;
+}
+.sub__list {
+	color: #637381;
+}
+.sub__item:not(:last-child) {
+	margin-bottom: 12px;
+}
+.last-column {
+	position: relative;
+	background: rgba(205, 131, 90, 0.65);
+	border-radius: 4px;
+}
+.last-column__back{
+	max-width: 100%;
+	display: block;
+	font-size: 0;
+	background: rgba(205, 131, 90, 0.65);
+}
+.last-column__content{
+	position: absolute;
+	top: 65px;
+	left: 45px;
+	text-align: center;
+}
+.last-column__title {
+	color: #fff;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 48px;
+}
+.last-column__subtitle {
+	color: #fff;
+	font-weight: 600;
+	font-size: 20px;
+	margin-bottom: 21px;
+}
+.button {
+	background-color: #0000ff;
+	padding: 6px 15px;
+	color: #fff;
+	font-weight: 700;
+	font-size: 11px;
+	line-height: 13px;
+}
+.main {
+	padding-top: 120px;
+}
