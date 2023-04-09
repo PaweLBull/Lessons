@@ -1,0 +1,23 @@
+.title{
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 1.12;
+	color: #212B36;
+}
+.product-name{
+	font-weight: 600;
+	font-size: 28px;
+	line-height: 1.25;
+	color: #212B36;
+}
+.category {
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 1.33;
+	color: #3056D3;
+}
+.subtitle{
+	font-weight: 500;
+	line-height: 1.5;
+}
+
