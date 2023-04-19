@@ -16,13 +16,13 @@ document.querySelector('.menu__search').onclick = function searchOpen() {
 document.querySelector('.button-4-columns').onclick = function fourColumns() {
 	document.querySelector('.articles__items').classList.remove('columns-3');
 	document.querySelector('.button-3-columns').classList.remove('active');
-	document.querySelector('.articles__items').classList.toggle('columns-4');
+	document.querySelector('.articles__items').classList.add('columns-4');
 	document.querySelector('.button-4-columns').classList.add('active');
 }
 
 document.querySelector('.button-3-columns').onclick = function threeColumns() {
 	document.querySelector('.articles__items').classList.remove('columns-4');
 	document.querySelector('.button-4-columns').classList.remove('active');
-	document.querySelector('.articles__items').classList.toggle('columns-3');
+	document.querySelector('.articles__items').classList.add('columns-3');
 	document.querySelector('.button-3-columns').classList.add('active');
 }
