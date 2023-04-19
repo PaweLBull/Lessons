@@ -121,7 +121,6 @@ body {
 		&--parent{
 			position: relative;
 			padding-right: rem(13);
-			@media(any-hover:hover){
 			&:hover .menu__submenu{
 				visibility: visible;
 				opacity: 1;
@@ -131,8 +130,6 @@ body {
 			&:hover::after{
 				transform: rotate(-90deg);
 			}
-		
-		}
 			}
 		&--parent::after{
 			content: '';

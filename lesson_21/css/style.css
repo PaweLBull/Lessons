@@ -281,18 +281,16 @@ body {
   position: relative;
   padding-right: 0.8125rem;
 }
-@media (any-hover: hover) {
-  .menu__item--parent:hover .menu__submenu {
-    visibility: visible;
-    opacity: 1;
-    top: 100%;
-    pointer-events: all;
-  }
-  .menu__item--parent:hover::after {
-    -webkit-transform: rotate(-90deg);
-        -ms-transform: rotate(-90deg);
-            transform: rotate(-90deg);
-  }
+.menu__item--parent:hover .menu__submenu {
+  visibility: visible;
+  opacity: 1;
+  top: 100%;
+  pointer-events: all;
+}
+.menu__item--parent:hover::after {
+  -webkit-transform: rotate(-90deg);
+      -ms-transform: rotate(-90deg);
+          transform: rotate(-90deg);
 }
 .menu__item--parent::after {
   content: "";
