@@ -1,0 +1,57 @@
+.title {
+	font-weight: 700;
+	font-size: rem(25);
+	line-height: 1.6;
+	color: #F8F9FA;
+}
+.title--medium{
+	font-weight: 500;
+	font-size: 1rem;
+	line-height: 1.56;
+}
+.title--dark{
+	line-height: 1.68;
+	color: #212529;
+}
+.title--dark--big{
+	font-weight: 500;
+	color: #495057;
+}
+.link-creative {
+	display: inline-block;
+	font-weight: 700;
+	font-size: rem(8);
+	line-height: 2.5;
+	color: #F8F9FA;
+	background-color: rgba(33, 37, 41, 0.3);
+	border-radius: rem(3);
+	padding: rem(3) rem(12);
+	position: absolute;
+	top: 12%; /* 30/250 */
+	right: 7.633588%; /* 30/393 */
+	transition: background-color 0.3s;
+	@media(any-hover: hover){
+		&:hover{
+			background-color: rgba(33, 37, 41, 0.509);
+		}
+	}
+}
+
+
+[class*="__logo"]{
+	font-weight: 700;
+	font-size: rem(18);
+	line-height: 1.39;
+	color: #F8F9FA;
+}
+
+[class*="__logo"]::after {
+	content: '.';
+	color: #DDBEA9;
+}
+.date,
+.description{
+	font-weight: 300;
+	line-height: 1.67;
+	color: #495057;
+}
